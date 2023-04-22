@@ -1,0 +1,66 @@
+.text-red{
+    color:red;
+}
+body{
+    background-image: url("https://www.shutterstock.com/image-vector/vector-abstract-irregular-polygonal-background-260nw-1134568250.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.chh-container{
+    border-style: groove;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-width: 5px;
+    height: 400px;
+    width: 500px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 400px;
+    margin-right: 400px;
+    display: inline-block;
+    padding-top: 35px;
+    padding-bottom: 10x;
+    background: rgb(4,139,133);
+background: linear-gradient(90deg, rgba(4,139,133,1) 0%, rgba(64,214,195,1) 50%, rgba(95,179,166,1) 100%);
+}
+label{
+    text-transform: capitalize;
+    color: rgb(41, 5, 75);
+    width: 16px;
+    font-weight: bold;
+}
+button{
+    background-color: black;
+    color: rgb(62, 62, 243);
+    border-radius: 8px;
+    cursor: pointer;
+    position: relative;
+}
+.styling{
+    background-color: transparent;
+    height: 10px;
+    size: 50px;
+    padding:100px;
+}
+.heading-container{
+    background-color: rgb(149, 224, 214);
+    display: inline;
+    padding: 8px;
+    border: 4px solid rgb(5, 102, 97);
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin: 2px;
+}
+#text,#e-mail,#number
+{
+    padding: 9px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-color: rgb(11, 124, 128);
+    background-color: transparent;
+}
+.align{
+    display:flex;
+    align-content: center;
+}
